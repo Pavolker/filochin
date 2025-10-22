@@ -101,9 +101,9 @@ body {
     margin: 0 auto;
 }
 
-.header .container.header-row { display: flex; align-items: center; justify-content: flex-start; }
-.header-content { display: flex; flex-direction: column; text-align: left; }
-.header-title-row { display: flex; align-items: center; gap: var(--spacing-sm); }
+.header .container.header-row { display: flex; align-items: center; justify-content: center; }
+.header-content { display: flex; flex-direction: column; align-items: center; text-align: center; }
+.header-title-row { display: flex; align-items: center; justify-content: center; gap: var(--spacing-sm); }
 .header-cover { height: 10rem; width: auto; border-radius: var(--border-radius-sm); border: 2px solid var(--primary-color); box-shadow: 0 4px 12px rgba(183, 28, 28, 0.15); object-fit: contain; }
 /* Navigation */
 .navigation {
