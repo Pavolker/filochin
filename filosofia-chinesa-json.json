@@ -1,0 +1,684 @@
+{
+  "livro": {
+    "id": "filosofia-contemporanea-chinesa",
+    "titulo": "A Filosofia Contemporânea Chinesa",
+    "subtitulo": "Uma Introdução aos Pensadores que Redesenham o Mundo",
+    "autor": "Seu Nome",
+    "versao": "1.0",
+    "data_publicacao": "2025",
+    "idioma": "pt-BR",
+    "total_capitulos": 24,
+    "duracao_total_leitura": "420min",
+    "tema_visual": {
+      "cor_primaria": "#D32F2F",
+      "cor_secundaria": "#FFC107",
+      "fonte_titulos": "Noto Serif SC",
+      "fonte_corpo": "Noto Sans",
+      "estilo": "minimalista_oriental"
+    }
+  },
+
+  "mapa_conceitual": {
+    "nucleo_central": {
+      "titulo": "7 Hipóteses sobre a Filosofia Chinesa Contemporânea",
+      "capitulo_referencia": "cap_19",
+      "descricao": "O coração do livro - todas as trilhas convergem aqui"
+    },
+
+    "hipoteses": [
+      {
+        "id": "hipotese_1",
+        "numero": 1,
+        "titulo_curto": "Universalidade em Disputa",
+        "titulo_completo": "O conjunto da obra dos cinco filósofos aponta para uma filosofia global de 'raízes múltiplas', que desafia a pretensão ocidental de universalidade homogênea.",
+        "ideograma": {
+          "caracteres": "普遍",
+          "pinyin": "pǔbiàn",
+          "significado": "Universalidade - o ideograma une o traço do 'comum' e do 'amplo', sugerindo horizonte compartilhado."
+        },
+        "cor_tema": "#FF6B6B",
+        "icone": "🌐",
+        "filosofos_principais": ["mou_zongsan", "tu_weiming", "zhao_tingyang"],
+        "capitulos_relacionados": ["prefacio", "cap_01", "cap_05", "cap_14", "cap_15", "cap_17"],
+        "palavra_chave": "pluralidade"
+      },
+      {
+        "id": "hipotese_2",
+        "numero": 2,
+        "titulo_curto": "O Nó Ético-Político",
+        "titulo_completo": "A filosofia chinesa contemporânea reabre o debate sobre a relação entre moralidade e política.",
+        "ideograma": {
+          "caracteres": "道德",
+          "pinyin": "dàodé",
+          "significado": "Moralidade - literalmente 'o Caminho e a Virtude'."
+        },
+        "cor_tema": "#4ECDC4",
+        "icone": "⚖️",
+        "filosofos_principais": ["mou_zongsan", "zhao_tingyang"],
+        "capitulos_relacionados": ["cap_05", "cap_10", "cap_14", "cap_17"],
+        "palavra_chave": "síntese"
+      },
+      {
+        "id": "hipotese_3",
+        "numero": 3,
+        "titulo_curto": "Modernidade da Comunidade",
+        "titulo_completo": "O humanismo confuciano desafia o Ocidente a pensar uma modernidade comunitária e relacional.",
+        "ideograma": {
+          "caracteres": "社群",
+          "pinyin": "shèqún",
+          "significado": "Comunidade - o radical de 'altar' e 'grupo'."
+        },
+        "cor_tema": "#95E1D3",
+        "icone": "👥",
+        "filosofos_principais": ["tu_weiming", "chen_lai", "mou_zongsan"],
+        "capitulos_relacionados": ["cap_02", "cap_03", "cap_09", "cap_15", "cap_18"],
+        "palavra_chave": "relacionalidade"
+      },
+      {
+        "id": "hipotese_4",
+        "numero": 4,
+        "titulo_curto": "Tianxia: O Mundo como Ordem",
+        "titulo_completo": "A proposta Tianxia coloca em choque o universalismo kantiano e o realismo político ocidental.",
+        "ideograma": {
+          "caracteres": "天下",
+          "pinyin": "tiānxià",
+          "significado": "Tudo sob o Céu - o mundo como casa comum."
+        },
+        "cor_tema": "#F38181",
+        "icone": "☁️",
+        "filosofos_principais": ["zhao_tingyang"],
+        "capitulos_relacionados": ["cap_10", "cap_17"],
+        "palavra_chave": "ordem_global"
+      },
+      {
+        "id": "hipotese_5",
+        "numero": 5,
+        "titulo_curto": "O Dilema da Autonomia",
+        "titulo_completo": "A ética relacional tensiona valores universais de autonomia individual.",
+        "ideograma": {
+          "caracteres": "自主",
+          "pinyin": "zìzhǔ",
+          "significado": "Autonomia - ser senhor de si dentro do tecido coletivo."
+        },
+        "cor_tema": "#AA96DA",
+        "icone": "🎭",
+        "filosofos_principais": ["tu_weiming", "chen_lai", "mou_zongsan"],
+        "capitulos_relacionados": ["cap_09", "cap_14", "cap_15", "cap_18"],
+        "palavra_chave": "paradoxo"
+      },
+      {
+        "id": "hipotese_6",
+        "numero": 6,
+        "titulo_curto": "A Estética do Pensamento",
+        "titulo_completo": "Li Zehou recoloca estética e emoção como dimensões estruturais do pensamento.",
+        "ideograma": {
+          "caracteres": "美学",
+          "pinyin": "měixué",
+          "significado": "Estética - emoção e beleza como modos de conhecer."
+        },
+        "cor_tema": "#FCBAD3",
+        "icone": "🎨",
+        "filosofos_principais": ["li_zehou"],
+        "capitulos_relacionados": ["cap_07", "cap_11", "cap_16"],
+        "palavra_chave": "sensibilidade"
+      },
+      {
+        "id": "hipotese_7",
+        "numero": 7,
+        "titulo_curto": "Cosmopolitismo Ferido",
+        "titulo_completo": "A tensão entre cosmopolitismo ético e hegemonia política.",
+        "ideograma": {
+          "caracteres": "世界主义",
+          "pinyin": "shìjiè zhǔyì",
+          "significado": "Cosmopolitismo - doutrina do mundo, entre ideal e risco."
+        },
+        "cor_tema": "#FFFFD2",
+        "icone": "🌍",
+        "filosofos_principais": ["zhao_tingyang", "tu_weiming"],
+        "capitulos_relacionados": ["cap_12", "cap_17"],
+        "palavra_chave": "ambiguidade"
+      }
+    ],
+
+    "filosofos": [
+      {
+        "id": "mou_zongsan",
+        "nome": "Mou Zongsan",
+        "caracteres": "牟宗三",
+        "pinyin": "Mù Zōngsān",
+        "anos": "1909-1995",
+        "movimento": "Novo Confucionismo (fundador)",
+        "contribuicao_essencial": "Síntese entre Kant e Confúcio",
+        "capitulo_dedicado": "cap_14",
+        "cor_tema": "#3498db",
+        "hipoteses_relacionadas": ["hipotese_1", "hipotese_2", "hipotese_5"]
+      },
+      {
+        "id": "tu_weiming",
+        "nome": "Tu Weiming",
+        "caracteres": "杜维明",
+        "pinyin": "Dù Wéimíng",
+        "anos": "1940-",
+        "movimento": "Novo Confucionismo (3ª geração)",
+        "contribuicao_essencial": "Humanismo confuciano global",
+        "capitulo_dedicado": "cap_15",
+        "cor_tema": "#2ecc71",
+        "hipoteses_relacionadas": ["hipotese_1", "hipotese_3", "hipotese_5", "hipotese_7"]
+      },
+      {
+        "id": "li_zehou",
+        "nome": "Li Zehou",
+        "caracteres": "李泽厚",
+        "pinyin": "Lǐ Zéhòu",
+        "anos": "1930-2021",
+        "movimento": "Filosofia Estética",
+        "contribuicao_essencial": "Estética como fundamento",
+        "capitulo_dedicado": "cap_16",
+        "cor_tema": "#e74c3c",
+        "hipoteses_relacionadas": ["hipotese_6"]
+      },
+      {
+        "id": "zhao_tingyang",
+        "nome": "Zhao Tingyang",
+        "caracteres": "赵汀阳",
+        "pinyin": "Zhào Tīngyáng",
+        "anos": "1961-",
+        "movimento": "Filosofia Política",
+        "contribuicao_essencial": "Teoria do Tianxia",
+        "capitulo_dedicado": "cap_17",
+        "cor_tema": "#f39c12",
+        "hipoteses_relacionadas": ["hipotese_1", "hipotese_2", "hipotese_4", "hipotese_7"]
+      },
+      {
+        "id": "chen_lai",
+        "nome": "Chen Lai",
+        "caracteres": "陈来",
+        "pinyin": "Chén Lái",
+        "anos": "1952-",
+        "movimento": "Novo Confucionismo (3ª geração)",
+        "contribuicao_essencial": "Hermenêutica confuciana",
+        "capitulo_dedicado": "cap_18",
+        "cor_tema": "#9b59b6",
+        "hipoteses_relacionadas": ["hipotese_3", "hipotese_5"]
+      }
+    ],
+
+    "escolas_classicas": [
+      {
+        "id": "confucionismo",
+        "nome": "Confucionismo",
+        "caracteres": "儒家",
+        "pinyin": "Rújiā",
+        "fundador": "Confúcio (孔子)",
+        "conceitos_chave": ["仁 (rén)", "义 (yì)", "礼 (lǐ)", "智 (zhì)", "信 (xìn)"],
+        "foco": "Ordem social, harmonia, cultivo moral",
+        "capitulo_principal": "cap_02"
+      },
+      {
+        "id": "taoismo",
+        "nome": "Taoismo",
+        "caracteres": "道家",
+        "pinyin": "Dàojiā",
+        "fundador": "Lao Tzu (老子)",
+        "conceitos_chave": ["道 (dào)", "德 (dé)", "无为 (wúwéi)", "自然 (zìrán)", "阴阳 (yīnyáng)"],
+        "foco": "Harmonia com natureza, espontaneidade",
+        "capitulo_principal": "cap_02"
+      },
+      {
+        "id": "budismo",
+        "nome": "Budismo",
+        "caracteres": "佛教",
+        "pinyin": "Fójiào",
+        "fundador": "Buda (Índia, séc. I d.C. na China)",
+        "conceitos_chave": ["苦 (kǔ)", "无常 (wúcháng)", "空 (kōng)", "缘起 (yuánqǐ)", "涅槃 (nièpán)"],
+        "foco": "Libertação do sofrimento, meditação",
+        "capitulo_principal": "cap_02"
+      }
+    ]
+  },
+
+  "partes": [
+    {
+      "id": "parte_1",
+      "numero": 1,
+      "titulo": "Contextualização",
+      "subtitulo": "China: Força Gravitacional do Século XXI",
+      "ordem": 1,
+      "cor_tema": "#E3F2FD",
+      "duracao_total": "75min",
+      "capitulos": ["prefacio", "cap_01", "cap_02", "cap_03", "cap_04"]
+    },
+    {
+      "id": "parte_2",
+      "numero": 2,
+      "titulo": "Correntes Filosóficas",
+      "subtitulo": "Os Caminhos do Pensamento Moderno",
+      "ordem": 2,
+      "cor_tema": "#FFF3E0",
+      "duracao_total": "85min",
+      "capitulos": ["cap_05", "cap_06", "cap_07", "cap_08"]
+    },
+    {
+      "id": "parte_3",
+      "numero": 3,
+      "titulo": "Questões Contemporâneas",
+      "subtitulo": "Dilemas da China do Século XXI",
+      "ordem": 3,
+      "cor_tema": "#F3E5F5",
+      "duracao_total": "90min",
+      "capitulos": ["cap_09", "cap_10", "cap_11", "cap_12"]
+    },
+    {
+      "id": "parte_4",
+      "numero": 4,
+      "titulo": "Os Filósofos",
+      "subtitulo": "5 Vozes que Redesenham o Mundo",
+      "ordem": 4,
+      "cor_tema": "#E8F5E9",
+      "duracao_total": "110min",
+      "capitulos": ["cap_13", "cap_14", "cap_15", "cap_16", "cap_17", "cap_18"]
+    },
+    {
+      "id": "parte_5",
+      "numero": 5,
+      "titulo": "Síntese",
+      "subtitulo": "7 Chaves para o Pensamento Chinês",
+      "ordem": 5,
+      "cor_tema": "#FFEBEE",
+      "duracao_total": "60min",
+      "capitulos": ["cap_19", "cap_20"],
+      "e_capitulo_nucleo": true
+    }
+  ],
+
+  "capitulos": [
+    {
+      "id": "prefacio",
+      "parte_id": "parte_1",
+      "ordem": 0,
+      "titulo": "Prefácio",
+      "subtitulo": "A China como Força Gravitacional Global",
+      "duracao_leitura": "15min",
+      "conteudo_path": "conteudo/prefacio.md",
+      "conceitos_chave": ["Curvatura espaço-tempo (metáfora)", "CINC", "Yongle Dadian"],
+      "conexoes": {
+        "proximos": ["cap_01"],
+        "hipoteses": ["hipotese_1"]
+      }
+    },
+    {
+      "id": "cap_01",
+      "parte_id": "parte_1",
+      "ordem": 1,
+      "titulo": "Introdução",
+      "subtitulo": "O Que é Filosofia Contemporânea Chinesa?",
+      "duracao_leitura": "12min",
+      "conteudo_path": "conteudo/cap_01.md",
+      "conceitos_chave": ["中国当代哲学", "Movimento 4 de Maio", "Novo Confucionismo", "Marxismo Chinês"],
+      "conexoes": {
+        "anteriores": ["prefacio"],
+        "proximos": ["cap_02"],
+        "hipoteses": ["hipotese_1"]
+      }
+    },
+    {
+      "id": "cap_02",
+      "parte_id": "parte_1",
+      "ordem": 2,
+      "titulo": "Breve História da Filosofia Chinesa Clássica",
+      "subtitulo": "Confucionismo, Taoismo e Budismo",
+      "duracao_leitura": "20min",
+      "conteudo_path": "conteudo/cap_02.md",
+      "conceitos_chave": ["仁 (rén)", "道 (dào)", "苦 (kǔ)", "无为 (wúwéi)", "涅槃 (nièpán)"],
+      "escolas": ["confucionismo", "taoismo", "budismo"],
+      "conexoes": {
+        "anteriores": ["cap_01"],
+        "proximos": ["cap_03"],
+        "hipoteses": ["hipotese_3"]
+      }
+    },
+    {
+      "id": "cap_03",
+      "parte_id": "parte_1",
+      "ordem": 3,
+      "titulo": "A Influência das Tradições Clássicas no Pensamento Contemporâneo",
+      "duracao_leitura": "15min",
+      "conteudo_path": "conteudo/cap_03.md",
+      "conceitos_chave": ["Novo Confucionismo", "Tai Chi Chuan", "Meditação budista"],
+      "conexoes": {
+        "anteriores": ["cap_02"],
+        "proximos": ["cap_04"],
+        "hipoteses": ["hipotese_3"]
+      }
+    },
+    {
+      "id": "cap_04",
+      "parte_id": "parte_1",
+      "ordem": 4,
+      "titulo": "O Impacto do Ocidente e a Modernização da China",
+      "duracao_leitura": "18min",
+      "conteudo_path": "conteudo/cap_04.md",
+      "conceitos_chave": ["Guerras do Ópio", "Movimento 4 de Maio", "Yan Fu", "Liang Qichao"],
+      "conexoes": {
+        "anteriores": ["cap_03"],
+        "proximos": ["cap_05"],
+        "hipoteses": ["hipotese_1", "hipotese_2"]
+      }
+    },
+    {
+      "id": "cap_05",
+      "parte_id": "parte_2",
+      "ordem": 5,
+      "titulo": "O Novo Confucionismo (新儒家)",
+      "duracao_leitura": "22min",
+      "conteudo_path": "conteudo/cap_05.md",
+      "conceitos_chave": ["新儒家 (Xīn Rújiā)", "Xiong Shili", "Feng Youlan", "Mou Zongsan"],
+      "filosofos": ["mou_zongsan"],
+      "conexoes": {
+        "anteriores": ["cap_04"],
+        "proximos": ["cap_06"],
+        "hipoteses": ["hipotese_1", "hipotese_2", "hipotese_3"]
+      }
+    },
+    {
+      "id": "cap_06",
+      "parte_id": "parte_2",
+      "ordem": 6,
+      "titulo": "O Marxismo Chinês e suas Interpretações",
+      "duracao_leitura": "20min",
+      "conteudo_path": "conteudo/cap_06.md",
+      "conceitos_chave": ["Marxismo Chinês", "Mao Zedong", "Deng Xiaoping", "Socialismo com características chinesas"],
+      "conexoes": {
+        "anteriores": ["cap_05"],
+        "proximos": ["cap_07"],
+        "hipoteses": ["hipotese_2"]
+      }
+    },
+    {
+      "id": "cap_07",
+      "parte_id": "parte_2",
+      "ordem": 7,
+      "titulo": "Filosofia e Ciência na China Contemporânea",
+      "duracao_leitura": "18min",
+      "conteudo_path": "conteudo/cap_07.md",
+      "conceitos_chave": ["Yin-Yang e ciência", "Qian Xuesen", "Li Zehou", "Wang Huning"],
+      "filosofos": ["li_zehou"],
+      "conexoes": {
+        "anteriores": ["cap_06"],
+        "proximos": ["cap_08"],
+        "hipoteses": ["hipotese_6"]
+      }
+    },
+    {
+      "id": "cap_08",
+      "parte_id": "parte_2",
+      "ordem": 8,
+      "titulo": "Outras Correntes e Pensadores Relevantes",
+      "duracao_leitura": "17min",
+      "conteudo_path": "conteudo/cap_08.md",
+      "conceitos_chave": ["Liberalismo (Hu Shi)", "Existencialismo", "Liang Shuming", "Zhang Dongsun"],
+      "conexoes": {
+        "anteriores": ["cap_07"],
+        "proximos": ["cap_09"],
+        "hipoteses": ["hipotese_5"]
+      }
+    },
+    {
+      "id": "cap_09",
+      "parte_id": "parte_3",
+      "ordem": 9,
+      "titulo": "Ética e Moralidade na Sociedade Chinesa Moderna",
+      "duracao_leitura": "25min",
+      "conteudo_path": "conteudo/cap_09.md",
+      "conceitos_chave": ["Corrupção", "Desigualdade social", "Ética ambiental", "Caso leite contaminado"],
+      "conexoes": {
+        "anteriores": ["cap_08"],
+        "proximos": ["cap_10"],
+        "hipoteses": ["hipotese_2", "hipotese_3", "hipotese_5"]
+      }
+    },
+    {
+      "id": "cap_10",
+      "parte_id": "parte_3",
+      "ordem": 10,
+      "titulo": "Política e Justiça Social na China Contemporânea",
+      "duracao_leitura": "23min",
+      "conteudo_path": "conteudo/cap_10.md",
+      "conceitos_chave": ["Sistema unipartidário", "Direitos humanos", "Minorias étnicas", "Estado de direito"],
+      "filosofos": ["zhao_tingyang"],
+      "conexoes": {
+        "anteriores": ["cap_09"],
+        "proximos": ["cap_11"],
+        "hipoteses": ["hipotese_2", "hipotese_4", "hipotese_7"]
+      }
+    },
+    {
+      "id": "cap_11",
+      "parte_id": "parte_3",
+      "ordem": 11,
+      "titulo": "Cultura e Identidade na China Globalizada",
+      "duracao_leitura": "22min",
+      "conteudo_path": "conteudo/cap_11.md",
+      "conceitos_chave": ["Identidade nacional", "Cinema chinês", "C-pop", "Diáspora chinesa"],
+      "filosofos": ["li_zehou"],
+      "conexoes": {
+        "anteriores": ["cap_10"],
+        "proximos": ["cap_12"],
+        "hipoteses": ["hipotese_3", "hipotese_6"]
+      }
+    },
+    {
+      "id": "cap_12",
+      "parte_id": "parte_3",
+      "ordem": 12,
+      "titulo": "Perspectivas da Filosofia Chinesa",
+      "duracao_leitura": "15min",
+      "conteudo_path": "conteudo/cap_12.md",
+      "conceitos_chave": ["Diálogo intercultural", "Inovação filosófica", "Engajamento público"],
+      "conexoes": {
+        "anteriores": ["cap_11"],
+        "proximos": ["cap_13"],
+        "hipoteses": ["hipotese_1", "hipotese_7"]
+      }
+    },
+    {
+      "id": "cap_13",
+      "parte_id": "parte_4",
+      "ordem": 13,
+      "titulo": "Os Filósofos",
+      "subtitulo": "Introdução aos 5 Pensadores",
+      "duracao_leitura": "12min",
+      "conteudo_path": "conteudo/cap_13.md",
+      "filosofos": ["mou_zongsan", "tu_weiming", "li_zehou", "zhao_tingyang", "chen_lai"],
+      "conexoes": {
+        "anteriores": ["cap_12"],
+        "proximos": ["cap_14"],
+        "hipoteses": ["todas"]
+      }
+    },
+    {
+      "id": "cap_14",
+      "parte_id": "parte_4",
+      "ordem": 14,
+      "titulo": "Mou Zongsan (牟宗三, 1909–1995)",
+      "duracao_leitura": "18min",
+      "conteudo_path": "conteudo/cap_14.md",
+      "filosofos": ["mou_zongsan"],
+      "conceitos_chave": ["Kant + Confúcio", "Intuição intelectual", "Moralidade universal"],
+      "conexoes": {
+        "anteriores": ["cap_13"],
+        "proximos": ["cap_15"],
+        "hipoteses": ["hipotese_1", "hipotese_2", "hipotese_5"]
+      }
+    },
+    {
+      "id": "cap_15",
+      "parte_id": "parte_4",
+      "ordem": 15,
+      "titulo": "Tu Weiming (杜维明, 1940–)",
+      "duracao_leitura": "18min",
+      "conteudo_path": "conteudo/cap_15.md",
+      "filosofos": ["tu_weiming"],
+      "conceitos_chave": ["Humanismo confuciano", "Globalização", "Diálogo intercultural"],
+      "conexoes": {
+        "anteriores": ["cap_14"],
+        "proximos": ["cap_16"],
+        "hipoteses": ["hipotese_1", "hipotese_3", "hipotese_5", "hipotese_7"]
+      }
+    },
+    {
+      "id": "cap_16",
+      "parte_id": "parte_4",
+      "ordem": 16,
+      "titulo": "Li Zehou (李泽厚, 1930–2021)",
+      "duracao_leitura": "18min",
+      "conteudo_path": "conteudo/cap_16.md",
+      "filosofos": ["li_zehou"],
+      "conceitos_chave": ["Estética", "Sedimentação cultural", "Emoção e razão"],
+      "conexoes": {
+        "anteriores": ["cap_15"],
+        "proximos": ["cap_17"],
+        "hipoteses": ["hipotese_6"]
+      }
+    },
+    {
+      "id": "cap_17",
+      "parte_id": "parte_4",
+      "ordem": 17,
+      "titulo": "Zhao Tingyang (赵汀阳, 1961–)",
+      "duracao_leitura": "20min",
+      "conteudo_path": "conteudo/cap_17.md",
+      "filosofos": ["zhao_tingyang"],
+      "conceitos_chave": ["Tianxia (天下)", "Ordem mundial", "Filosofia política"],
+      "conexoes": {
+        "anteriores": ["cap_16"],
+        "proximos": ["cap_18"],
+        "hipoteses": ["hipotese_1", "hipotese_2", "hipotese_4", "hipotese_7"]
+      }
+    },
+    {
+      "id": "cap_18",
+      "parte_id": "parte_4",
+      "ordem": 18,
+      "titulo": "Chen Lai (陈来, 1952–)",
+      "duracao_leitura": "18min",
+      "conteudo_path": "conteudo/cap_18.md",
+      "filosofos": ["chen_lai"],
+      "conceitos_chave": ["Hermenêutica confuciana", "Tradição e modernidade"],
+      "conexoes": {
+        "anteriores": ["cap_17"],
+        "proximos": ["cap_19"],
+        "hipoteses": ["hipotese_3", "hipotese_5"]
+      }
+    },
+    {
+      "id": "cap_19",
+      "parte_id": "parte_5",
+      "ordem": 19,
+      "titulo": "7 Hipóteses",
+      "subtitulo": "Sete Chaves para a Filosofia Chinesa Contemporânea",
+      "duracao_leitura": "30min",
+      "e_capitulo_nucleo": true,
+      "conteudo_path": "conteudo/cap_19.md",
+      "hipoteses": ["todas"],
+      "filosofos": ["todos"],
+      "modo_especial": "rede_conceitual_interativa",
+      "conexoes": {
+        "anteriores": ["cap_14", "cap_15", "cap_16", "cap_17", "cap_18"],
+        "proximos": ["cap_20"],
+        "relacionados": ["todos"]
+      }
+    },
+    {
+      "id": "cap_20",
+      "parte_id": "parte_5",
+      "ordem": 20,
+      "titulo": "Por Fim…",
+      "subtitulo": "Reflexão Final",
+      "duracao_leitura": "10min",
+      "conteudo_path": "conteudo/cap_20.md",
+      "conexoes": {
+        "anteriores": ["cap_19"],
+        "proximos": ["cap_21"]
+      }
+    },
+    {
+      "id": "cap_21",
+      "parte_id": "parte_5",
+      "ordem": 21,
+      "titulo": "Cronologia",
+      "tipo": "referencia",
+      "duracao_leitura": "10min",
+      "conteudo_path": "conteudo/cap_21.md",
+      "modo_especial": "linha_tempo_interativa"
+    },
+    {
+      "id": "cap_22",
+      "parte_id": "parte_5",
+      "ordem": 22,
+      "titulo": "Glossário",
+      "tipo": "referencia",
+      "conteudo_path": "conteudo/cap_22.md",
+      "total_termos": 30,
+      "modo_especial": "busca_termos"
+    },
+    {
+      "id": "cap_23",
+      "parte_id": "parte_5",
+      "ordem": 23,
+      "titulo": "Bibliografia Comentada",
+      "tipo": "referencia",
+      "conteudo_path": "conteudo/cap_23.md",
+      "total_obras": 45
+    },
+    {
+      "id": "cap_24",
+      "parte_id": "parte_5",
+      "ordem": 24,
+      "titulo": "Conclusão",
+      "duracao_leitura": "8min",
+      "conteudo_path": "conteudo/cap_24.md"
+    }
+  ],
+
+  "jornadas_tematicas": [
+    {
+      "id": "jornada_7_dias",
+      "titulo": "Jornada de 7 Dias - 7 Hipóteses",
+      "descricao": "Uma hipótese por dia, com leituras e reflexões",
+      "duracao_total": "7 dias",
+      "dias": [
+        {"dia": 1, "hipotese": "hipotese_1", "capitulos": ["prefacio", "cap_01", "cap_14"]},
+        {"dia": 2, "hipotese": "hipotese_2", "capitulos": ["cap_05", "cap_10", "cap_17"]},
+        {"dia": 3, "hipotese": "hipotese_3", "capitulos": ["cap_02", "cap_15", "cap_18"]},
+        {"dia": 4, "hipotese": "hipotese_4", "capitulos": ["cap_17"]},
+        {"dia": 5, "hipotese": "hipotese_5", "capitulos": ["cap_09", "cap_15"]},
+        {"dia": 6, "hipotese": "hipotese_6", "capitulos": ["cap_07", "cap_11", "cap_16"]},
+        {"dia": 7, "hipotese": "hipotese_7", "capitulos": ["cap_12", "cap_19"]}
+      ]
+    },
+    {
+      "id": "trilha_iniciante",
+      "titulo": "Trilha do Iniciante",
+      "descricao": "Introdução rápida à filosofia chinesa",
+      "duracao_total": "60min",
+      "capitulos": ["prefacio", "cap_01", "cap_02", "cap_13", "cap_19"]
+    }
+  ],
+
+  "recursos_extras": {
+    "glossario": {
+      "path": "recursos/glossario.json",
+      "total_termos": 30
+    },
+    "cronologia": {
+      "path": "recursos/cronologia.json",
+      "periodo": "1839-2025",
+      "total_eventos": 42
+    },
+    "bibliografia": {
+      "path": "recursos/bibliografia.json",
+      "total_obras": 45
+    }
+  }
+}

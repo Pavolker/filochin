@@ -1,0 +1,502 @@
+{
+  "livro_id": "filosofia-contemporanea-chinesa",
+  "titulo": "A Filosofia Contemporânea Chinesa",
+  "autor": "Seu Nome",
+  "versao": "1.0",
+  "data_publicacao": "2025",
+  
+  "mapa_conceitual": {
+    "nucleos": [
+      {
+        "id": "hipotese_1",
+        "titulo": "Universalidade em Disputa",
+        "caracteres": "普遍 (pǔbiàn)",
+        "sintese": "Não há uma única filosofia global: a universalidade deve nascer de muitas raízes.",
+        "cor": "#FF6B6B",
+        "conecta_com": ["mou_zongsan", "tu_weiming", "zhao_tingyang"],
+        "capitulos_relacionados": ["cap_01", "cap_05", "cap_14", "cap_15"]
+      },
+      {
+        "id": "hipotese_2",
+        "titulo": "O Nó Ético-Político",
+        "caracteres": "道德 (dàodé)",
+        "sintese": "O futuro da filosofia é religar moralidade e política em um pacto ainda por escrever.",
+        "cor": "#4ECDC4",
+        "conecta_com": ["mou_zongsan", "zhao_tingyang"],
+        "capitulos_relacionados": ["cap_05", "cap_10", "cap_14", "cap_17"]
+      },
+      {
+        "id": "hipotese_3",
+        "titulo": "Modernidade da Comunidade",
+        "caracteres": "社群 (shèqún)",
+        "sintese": "A modernidade não precisa ser individualista: há força em ser comunidade.",
+        "cor": "#95E1D3",
+        "conecta_com": ["tu_weiming", "chen_lai"],
+        "capitulos_relacionados": ["cap_03", "cap_09", "cap_15", "cap_18"]
+      },
+      {
+        "id": "hipotese_4",
+        "titulo": "Tianxia: O Mundo como Ordem",
+        "caracteres": "天下 (tiānxià)",
+        "sintese": "O mundo não é feito de fronteiras: 'tudo sob o céu' pode ser uma ordem comum.",
+        "cor": "#F38181",
+        "conecta_com": ["zhao_tingyang"],
+        "capitulos_relacionados": ["cap_10", "cap_17"]
+      },
+      {
+        "id": "hipotese_5",
+        "titulo": "O Dilema da Autonomia",
+        "caracteres": "自主 (zìzhǔ)",
+        "sintese": "Entre indivíduo e comunidade, a liberdade só existe se for também relacional.",
+        "cor": "#AA96DA",
+        "conecta_com": ["mou_zongsan", "tu_weiming", "chen_lai"],
+        "capitulos_relacionados": ["cap_09", "cap_14", "cap_15"]
+      },
+      {
+        "id": "hipotese_6",
+        "titulo": "A Estética do Pensamento",
+        "caracteres": "美学 (měixué)",
+        "sintese": "A filosofia não nasce apenas da razão: emoção e estética também pensam.",
+        "cor": "#FCBAD3",
+        "conecta_com": ["li_zehou"],
+        "capitulos_relacionados": ["cap_07", "cap_11", "cap_16"]
+      },
+      {
+        "id": "hipotese_7",
+        "titulo": "Cosmopolitismo Ferido",
+        "caracteres": "世界主义 (shìjiè zhǔyì)",
+        "sintese": "Todo cosmopolitismo é promessa e ameaça: ou ética universal, ou hegemonia disfarçada.",
+        "cor": "#FFFFD2",
+        "conecta_com": ["zhao_tingyang", "tu_weiming"],
+        "capitulos_relacionados": ["cap_12", "cap_17"]
+      }
+    ],
+    
+    "filosofos": [
+      {
+        "id": "mou_zongsan",
+        "nome": "Mou Zongsan",
+        "caracteres": "牟宗三",
+        "anos": "1909-1995",
+        "contribuicao_chave": "Moralidade kantiana + Confucionismo",
+        "hipoteses_relacionadas": ["hipotese_1", "hipotese_2", "hipotese_5"],
+        "icone_cor": "#3498db"
+      },
+      {
+        "id": "tu_weiming",
+        "nome": "Tu Weiming",
+        "caracteres": "杜维明",
+        "anos": "1940-",
+        "contribuicao_chave": "Humanismo confuciano global",
+        "hipoteses_relacionadas": ["hipotese_1", "hipotese_3", "hipotese_5", "hipotese_7"],
+        "icone_cor": "#2ecc71"
+      },
+      {
+        "id": "li_zehou",
+        "nome": "Li Zehou",
+        "caracteres": "李泽厚",
+        "anos": "1930-2021",
+        "contribuicao_chave": "Estética como fundamento filosófico",
+        "hipoteses_relacionadas": ["hipotese_6"],
+        "icone_cor": "#e74c3c"
+      },
+      {
+        "id": "zhao_tingyang",
+        "nome": "Zhao Tingyang",
+        "caracteres": "赵汀阳",
+        "anos": "1961-",
+        "contribuicao_chave": "Teoria do Tianxia (ordem mundial)",
+        "hipoteses_relacionadas": ["hipotese_1", "hipotese_2", "hipotese_4", "hipotese_7"],
+        "icone_cor": "#f39c12"
+      },
+      {
+        "id": "chen_lai",
+        "nome": "Chen Lai",
+        "caracteres": "陈来",
+        "anos": "1952-",
+        "contribuicao_chave": "Hermenêutica confuciana",
+        "hipoteses_relacionadas": ["hipotese_3", "hipotese_5"],
+        "icone_cor": "#9b59b6"
+      }
+    ]
+  },
+
+  "partes": [
+    {
+      "id": "parte_1",
+      "titulo": "Contextualização",
+      "ordem": 1,
+      "capitulos": ["prefacio", "cap_01", "cap_02", "cap_03", "cap_04"]
+    },
+    {
+      "id": "parte_2",
+      "titulo": "Correntes Filosóficas",
+      "ordem": 2,
+      "capitulos": ["cap_05", "cap_06", "cap_07", "cap_08"]
+    },
+    {
+      "id": "parte_3",
+      "titulo": "Questões Contemporâneas",
+      "ordem": 3,
+      "capitulos": ["cap_09", "cap_10", "cap_11", "cap_12"]
+    },
+    {
+      "id": "parte_4",
+      "titulo": "Os Filósofos",
+      "ordem": 4,
+      "capitulos": ["cap_13", "cap_14", "cap_15", "cap_16", "cap_17", "cap_18"]
+    },
+    {
+      "id": "parte_5",
+      "titulo": "Síntese",
+      "ordem": 5,
+      "capitulos": ["cap_19", "cap_20"]
+    }
+  ],
+
+  "capitulos": [
+    {
+      "id": "prefacio",
+      "parte_id": "parte_1",
+      "ordem": 0,
+      "titulo": "Prefácio",
+      "subtitulo": "A China como Força Gravitacional Global",
+      "duracao_leitura": "15min",
+      "conteudo_path": "prefacio.md",
+      
+      "conceitos_chave": [
+        {
+          "termo": "Curvatura do espaço-tempo (metáfora)",
+          "definicao": "A China como massa que deforma o espaço global",
+          "caracteres": null
+        },
+        {
+          "termo": "CINC",
+          "definicao": "Índice Composto de Capacidade Nacional",
+          "caracteres": null
+        },
+        {
+          "termo": "Yongle Dadian",
+          "definicao": "Grande Enciclopédia Yongle (11mil volumes)",
+          "caracteres": "永乐大典"
+        }
+      ],
+      
+      "reflexoes": [
+        {
+          "tipo": "pergunta_socratica",
+          "texto": "Se a China é uma 'massa' que curva o espaço cultural global, que tipo de 'órbitas' ela cria para outros países e culturas?",
+          "dicas": ["Pense em soft power", "Considere a Rota da Seda", "Reflita sobre dependência tecnológica"]
+        },
+        {
+          "tipo": "comparacao",
+          "texto": "Compare: Por que apenas 0,051% das teses brasileiras abordam a China, se ela representa 18% da população mundial?",
+          "formato": "enquete_reflexiva"
+        }
+      ],
+      
+      "midia": [
+        {
+          "tipo": "imagem",
+          "src": "einstein_relatividade.jpg",
+          "legenda": "Einstein e a Relatividade Geral - metáfora para a força chinesa"
+        },
+        {
+          "tipo": "grafico",
+          "src": "cinc_china_vs_mundo.json",
+          "legenda": "Evolução do índice CINC (1990-2025)"
+        }
+      ],
+      
+      "citacoes_destaque": [
+        {
+          "texto": "A matéria, ao existir, curva o espaço.",
+          "autor": "Einstein (Teoria da Relatividade Geral, 1915)",
+          "relevancia": "Metáfora central do prefácio"
+        },
+        {
+          "texto": "Einstein não passa de uma autoridade acadêmica reacionária!",
+          "autor": "Guarda-vermelha (Revolução Cultural, 1967)",
+          "relevancia": "Paradoxo China: de rejeitar Einstein a potência científica"
+        }
+      ],
+      
+      "conexoes": {
+        "proximos": ["cap_01"],
+        "relacionados": ["cap_04", "cap_12"],
+        "hipoteses": ["hipotese_1"]
+      }
+    },
+
+    {
+      "id": "cap_01",
+      "parte_id": "parte_1",
+      "ordem": 1,
+      "titulo": "Introdução",
+      "subtitulo": "O Que é Filosofia Contemporânea Chinesa?",
+      "duracao_leitura": "12min",
+      "conteudo_path": "cap_01.md",
+      
+      "conceitos_chave": [
+        {
+          "termo": "中国当代哲学",
+          "pinyin": "Zhōngguó dāngdài zhéxué",
+          "definicao": "Filosofia contemporânea chinesa",
+          "caracteres": "中国当代哲学"
+        },
+        {
+          "termo": "Novo Confucionismo",
+          "pinyin": "Xīn Rújiā",
+          "definicao": "Revitalização moderna da tradição confucionista",
+          "caracteres": "新儒家"
+        },
+        {
+          "termo": "Movimento de 4 de Maio",
+          "pinyin": "Wǔsì Yùndòng",
+          "definicao": "Marco da renovação cultural chinesa (1919)",
+          "caracteres": "五四运动"
+        }
+      ],
+      
+      "reflexoes": [
+        {
+          "tipo": "definicao_pessoal",
+          "texto": "Para você, o que significa 'filosofia contemporânea'? É apenas filosofia do século XX/XXI, ou algo mais?",
+          "formato": "texto_livre",
+          "prompt_ia": "Compare sua definição com a perspectiva chinesa apresentada"
+        },
+        {
+          "tipo": "linha_do_tempo_interativa",
+          "texto": "O 'contemporâneo' chinês começa em 1919 (Movimento 4 de Maio). O 'contemporâneo' ocidental começa quando para você?",
+          "opcoes": ["Pós-2ª Guerra (1945)", "Pós-modernidade (1960s)", "Queda do Muro (1989)", "Século XXI (2000)"],
+          "discussao": true
+        }
+      ],
+      
+      "desafios_metodologicos": [
+        {
+          "titulo": "O Problema da Tradução",
+          "descricao": "Muitos termos filosóficos chineses não têm equivalentes diretos",
+          "exemplo": "仁 (rén) = benevolência? humanidade? amor universal?",
+          "exercicio": "Tente traduzir 'saudade' para chinês. Percebe a dificuldade?"
+        },
+        {
+          "titulo": "Uso de IA na Pesquisa",
+          "descricao": "Este livro utilizou IA chinesa para tradução - quais implicações?",
+          "reflexao_critica": "A IA chinesa tem vieses diferentes da ocidental?"
+        }
+      ],
+      
+      "midia": [
+        {
+          "tipo": "cronologia_interativa",
+          "src": "linha_tempo_filosofia_chinesa.json",
+          "permite_zoom": true,
+          "eventos_destacados": ["1919", "1949", "1978", "2005"]
+        }
+      ],
+      
+      "conexoes": {
+        "anteriores": ["prefacio"],
+        "proximos": ["cap_02"],
+        "relacionados": ["cap_05", "cap_13"],
+        "hipoteses": ["hipotese_1"]
+      }
+    },
+
+    {
+      "id": "cap_19",
+      "parte_id": "parte_5",
+      "ordem": 19,
+      "titulo": "7 Hipóteses",
+      "subtitulo": "Sete Chaves para a Filosofia Chinesa Contemporânea",
+      "duracao_leitura": "25min",
+      "e_capitulo_nucleo": true,
+      "conteudo_path": "cap_19.md",
+      
+      "modo_visualizacao": "rede_conceitual",
+      
+      "hipoteses": [
+        {
+          "numero": 1,
+          "id": "hipotese_1",
+          "titulo_curto": "Universalidade em Disputa",
+          "titulo_completo": "O conjunto da obra dos cinco filósofos aponta para uma filosofia global de 'raízes múltiplas', que desafia a pretensão ocidental de universalidade homogênea.",
+          "caracteres": "普遍 (pǔbiàn)",
+          "significado_ideograma": "O ideograma une o traço do 'comum' e do 'amplo', sugerindo não apenas o que se espalha, mas aquilo que se torna horizonte compartilhado.",
+          
+          "analise": "Esta é a hipótese mais abrangente, pois sintetiza o espírito da filosofia chinesa contemporânea: propor uma filosofia verdadeiramente global que não parte da homogeneização ocidental, mas de uma pluralidade enraizada em tradições distintas.",
+          
+          "critica": "O risco aqui é ser interpretado como relativismo cultural, minando valores universais. Entretanto, a proposta chinesa não nega universalidade, mas defende sua construção policêntrica.",
+          
+          "filosofos_relacionados": ["mou_zongsan", "tu_weiming", "zhao_tingyang"],
+          
+          "exercicio_reflexivo": {
+            "tipo": "debate_posicionamento",
+            "pergunta": "A universalidade deve ser uma ou múltipla?",
+            "posicoes": [
+              {
+                "titulo": "Universalidade Única (Kant)",
+                "argumento": "Valores universais devem valer para todos, sempre"
+              },
+              {
+                "titulo": "Universalidade Múltipla (Filosofia Chinesa)",
+                "argumento": "Cada cultura contribui com sua versão do universal"
+              }
+            ],
+            "seu_posicionamento": "slider_0_a_10"
+          },
+          
+          "visualizacao": {
+            "tipo": "rede_semantica",
+            "central": "Universalidade",
+            "nos": ["Ocidente (único)", "China (múltiplo)", "Diálogo", "Tensão"]
+          }
+        },
+
+        {
+          "numero": 2,
+          "id": "hipotese_2",
+          "titulo_curto": "O Nó Ético-Político",
+          "titulo_completo": "A filosofia chinesa contemporânea reabre o debate sobre a relação entre moralidade e política, unindo Kant, Confúcio e Tianxia numa síntese ainda inconclusa.",
+          "caracteres": "道德 (dàodé)",
+          "significado_ideograma": "Literalmente, 'o Caminho e a Virtude'. Não é a moral como código imposto, mas como percurso existencial.",
+          
+          "analise": "Essa hipótese mostra o esforço sistemático dos filósofos chineses para superar o abismo entre ética e política — tema central do Ocidente desde Maquiavel.",
+          
+          "critica": "A síntese proposta é de difícil viabilidade, porque as tradições possuem pressupostos ontológicos distintos. Ainda assim, esse esforço é criativo e ousado.",
+          
+          "filosofos_relacionados": ["mou_zongsan", "zhao_tingyang"],
+          
+          "exercicio_reflexivo": {
+            "tipo": "dilema_etico",
+            "situacao": "Um governante pode mentir para proteger seu povo?",
+            "perspectivas": [
+              {
+                "filosofia": "Kant",
+                "resposta": "Não. Mentir é sempre errado, pois viola a lei moral universal."
+              },
+              {
+                "filosofia": "Confúcio",
+                "resposta": "Depende do contexto e das relações. A benevolência (仁) pode justificar."
+              },
+              {
+                "filosofia": "Maquiavel",
+                "resposta": "Sim, se necessário para manter o poder e a ordem."
+              }
+            ],
+            "sua_resposta": "texto_livre"
+          }
+        },
+
+        {
+          "numero": 3,
+          "id": "hipotese_3",
+          "titulo_curto": "Modernidade da Comunidade",
+          "titulo_completo": "O humanismo confuciano desafia o Ocidente a pensar uma modernidade não individualista, mas comunitária e relacional.",
+          "caracteres": "社群 (shèqún)",
+          "significado_ideograma": "O ideograma traz o radical de 'altar' e 'grupo', evocando tanto o espaço ritual quanto a coletividade.",
+          
+          "analise": "A hipótese mostra como o confucionismo é atualizado como alternativa ao individualismo exacerbado do liberalismo ocidental.",
+          
+          "critica": "O perigo é que essa ênfase no comunitário seja vista como coletivismo que sufoca a autonomia.",
+          
+          "filosofos_relacionados": ["tu_weiming", "chen_lai"],
+          
+          "exercicio_reflexivo": {
+            "tipo": "espectro_valores",
+            "pergunta": "Onde você se posiciona?",
+            "extremo_esquerda": {
+              "label": "Indivíduo acima de tudo",
+              "filosofia": "Liberalismo (Rawls, Hayek)"
+            },
+            "extremo_direita": {
+              "label": "Comunidade acima de tudo",
+              "filosofia": "Confucionismo"
+            },
+            "sua_posicao": "slider_0_a_10",
+            "reflexao": "Por que você escolheu essa posição? O que te levou a isso?"
+          }
+        }
+        // ... [CONTINUA PARA AS 7 HIPÓTESES]
+      ],
+      
+      "rede_conceitual_interativa": {
+        "tipo": "grafo_navegavel",
+        "src": "grafo_filosofos_conceitos.json",
+        "permite_filtros": ["por_filosofo", "por_hipotese", "por_conceito"],
+        "animacao": "forcas_gravitacionais"
+      },
+      
+      "sintese_final": {
+        "texto": "A filosofia chinesa contemporânea se apresenta como um esforço vigoroso de repensar o humano em escala global.",
+        "eixos": [
+          "Universalidade ↔ Comunidade",
+          "Moralidade ↔ Política",
+          "Autonomia ↔ Estética",
+          "Cosmopolitismo ↔ Tianxia"
+        ]
+      },
+      
+      "conexoes": {
+        "anteriores": ["cap_14", "cap_15", "cap_16", "cap_17", "cap_18"],
+        "proximos": ["cap_20"],
+        "relacionados": ["todos"]
+      }
+    }
+    
+    // ... [CONTINUA PARA TODOS OS 24 CAPÍTULOS]
+  ],
+  
+  "recursos_extras": {
+    "glossario": {
+      "path": "glossario.json",
+      "total_termos": 30
+    },
+    "cronologia": {
+      "path": "cronologia.json",
+      "eventos": 42
+    },
+    "bibliografia": {
+      "path": "bibliografia.json",
+      "total_obras": 45
+    }
+  }
+}
+```
+
+---
+
+## **🎨 PROPOSTAS DE INTERATIVIDADE ESPECÍFICAS**
+
+### **1. Tela Inicial: "Mapa das 7 Hipóteses"**
+- Visualização tipo **constellation map**
+- 7 estrelas (hipóteses) conectadas
+- Ao tocar cada estrela: zoom + explicação curta
+- Fundo: padrão tradicional chinês (ex: nuvens, ondas)
+
+### **2. Navegação por Filósofo**
+- **Card de cada filósofo** com:
+  - Foto/ilustração
+  - Caracteres chineses do nome
+  - Anos de vida
+  - "Superpoder filosófico" (1 frase)
+  - Hipóteses que ele toca
+- Ao clicar: abre "universo" daquele filósofo
+
+### **3. Jornadas Temáticas** (diferentes do livro linear)
+
+**Exemplo: "Jornada de 7 Dias - 7 Hipóteses"**
+```
+Dia 1: Universalidade → Lê introdução + cap. Mou Zongsan + reflexão
+Dia 2: Ético-Político → Cap. Zhao Tingyang + exercício
+...
+Dia 7: Cosmopolitismo → Síntese final + auto-avaliação
+```
+
+**Exemplo: "Trilha do Iniciante"**
+```
+1. Prefácio (15min)
+2. Cap 2: Escolas Clássicas (12min)
+3. Cap 13: Os 5 Filósofos (10min)
+4. Cap 19: 7 Hipóteses - versão simplificada (15min)

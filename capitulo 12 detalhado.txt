@@ -1,0 +1,903 @@
+{
+  "capitulos": [
+    {
+      "id": "prefacio",
+      "parte_id": "parte_1",
+      "ordem": 0,
+      "titulo": "Prefácio",
+      "subtitulo": "A China como Força Gravitacional Global",
+      "tipo": "introducao",
+      "duracao_leitura_estimada": "15min",
+      "dificuldade": "intermediário",
+      "conteudo_path": "conteudo/prefacio.md",
+      
+      "resumo_executivo": "Uma metáfora poderosa: assim como a massa curva o espaço segundo Einstein, a China curva o espaço cultural, político e econômico global. Apesar disso, apenas 0,051% das teses brasileiras abordam a China.",
+      
+      "conceitos_chave": [
+        {
+          "id": "curvatura_espacotempo_metafora",
+          "termo": "Curvatura do Espaço (Metáfora)",
+          "definicao": "Inspirado na Relatividade Geral de Einstein: a China, como 'massa civilizacional', deforma o espaço global ao seu redor, criando novas linhas de força e atratividade.",
+          "caracteres": null,
+          "importancia": "alta",
+          "tipo": "metáfora_conceitual"
+        },
+        {
+          "id": "cinc",
+          "termo": "CINC",
+          "definicao": "Índice Composto de Capacidade Nacional - mede poder de um país baseado em demografia, economia e força militar. China lidera desde 2007.",
+          "caracteres": null,
+          "importancia": "média",
+          "tipo": "indicador_tecnico"
+        },
+        {
+          "id": "yongle_dadian",
+          "termo": "Yongle Dadian",
+          "definicao": "Grande Enciclopédia Yongle (1408) - 11 mil volumes manuscritos. Maior compilação de conhecimento do mundo pré-moderno.",
+          "caracteres": "永乐大典",
+          "pinyin": "Yǒnglè Dàdiǎn",
+          "importancia": "média",
+          "tipo": "patrimonio_cultural"
+        },
+        {
+          "id": "revolucao_cultural",
+          "termo": "Revolução Cultural",
+          "definicao": "Movimento político chinês (1966-1976) que perseguiu intelectuais e destruiu patrimônio cultural. Contexto crucial para entender o renascimento filosófico posterior.",
+          "caracteres": "文化大革命",
+          "pinyin": "Wénhuà Dà Gémìng",
+          "importancia": "alta",
+          "tipo": "evento_historico"
+        }
+      ],
+      
+      "citacoes_destaque": [
+        {
+          "id": "cit_einstein",
+          "texto": "A matéria, ao existir, curva o espaço.",
+          "autor": "Albert Einstein",
+          "contexto": "Teoria da Relatividade Geral (1915)",
+          "relevancia": "Metáfora central do prefácio para descrever a influência chinesa",
+          "tipo": "analogia_cientifica"
+        },
+        {
+          "id": "cit_guarda_vermelha",
+          "texto": "Einstein não passa de uma autoridade acadêmica reacionária, que serviria a qualquer mestre que balançasse um maço de dinheiro na sua frente!",
+          "autor": "Guarda-vermelha (1967)",
+          "contexto": "Revolução Cultural - julgamento de um professor de física",
+          "relevancia": "Paradoxo histórico: de rejeitar Einstein a potência científica",
+          "tipo": "documento_historico"
+        },
+        {
+          "id": "cit_liu_cixin",
+          "texto": "A envergadura alcançada é de tal ordem que inevitavelmente me recordo de Einstein...",
+          "autor": "Inspirado em Liu Cixin",
+          "contexto": "Conexão entre O Problema dos Três Corpos e a realidade chinesa",
+          "relevancia": "Ponte entre ficção científica e realidade geopolítica",
+          "tipo": "referencia_cultural"
+        }
+      ],
+      
+      "dados_e_estatisticas": [
+        {
+          "indicador": "Presença China na BDTD Brasil",
+          "valor": "561 trabalhos",
+          "total": "1.079.212 teses/dissertações",
+          "percentual": "0,051%",
+          "fonte": "Biblioteca Digital Brasileira de Teses e Dissertações",
+          "comentario": "Desproporcional ao peso global da China",
+          "visualizacao": "pizza_chart"
+        },
+        {
+          "indicador": "PIB China (PPC)",
+          "valor": "> 27 trilhões USD",
+          "ano": "2019",
+          "contexto": "Maior que EUA em Paridade de Poder de Compra",
+          "visualizacao": "bar_chart_comparativo"
+        },
+        {
+          "indicador": "População China",
+          "valor": "1,4 bilhão",
+          "comparacao": "2,5x maior que EUA",
+          "visualizacao": "icones_proporcao"
+        }
+      ],
+      
+      "reflexoes_interativas": [
+        {
+          "id": "ref_pref_01",
+          "tipo": "pergunta_reflexiva",
+          "pergunta": "Se a China é uma 'massa' que curva o espaço cultural global, que tipo de 'órbitas' ela cria para outros países?",
+          "formato": "texto_livre",
+          "dicas": [
+            "Pense em soft power cultural (cinema, TikTok)",
+            "Considere a Nova Rota da Seda (BRI)",
+            "Reflita sobre dependência tecnológica (5G, eletrônicos)"
+          ],
+          "tempo_sugerido": "5min"
+        },
+        {
+          "id": "ref_pref_02",
+          "tipo": "comparacao_dados",
+          "pergunta": "Por que apenas 0,051% das teses brasileiras abordam a China, se ela representa 18% da população mundial e é a 2ª economia?",
+          "formato": "multipla_escolha_reflexiva",
+          "opcoes": [
+            "Barreira linguística e cultural",
+            "Foco acadêmico eurocêntrico",
+            "Falta de recursos de pesquisa",
+            "Desinteresse estratégico brasileiro",
+            "Todas as anteriores"
+          ],
+          "permite_discussao": true
+        },
+        {
+          "id": "ref_pref_03",
+          "tipo": "linha_temporal_pessoal",
+          "pergunta": "Quando você teve o primeiro contato significativo com a cultura chinesa? (filme, produto, notícia, filosofia)",
+          "formato": "timeline_interativa",
+          "objetivo": "Consciência da presença chinesa na vida cotidiana"
+        }
+      ],
+      
+      "elementos_multimidia": [
+        {
+          "tipo": "imagem",
+          "id": "img_einstein",
+          "titulo": "Einstein e a Relatividade",
+          "arquivo": "einstein_relatividade_geral.jpg",
+          "legenda": "A Teoria da Relatividade Geral como metáfora para a força gravitacional chinesa",
+          "creditos": "Domínio público"
+        },
+        {
+          "tipo": "infografico",
+          "id": "info_cinc",
+          "titulo": "Evolução do Poder Nacional Chinês",
+          "arquivo": "cinc_evolution_china.json",
+          "legenda": "Índice CINC: China vs EUA (1990-2025)",
+          "interativo": true
+        },
+        {
+          "tipo": "mapa_mental",
+          "id": "mapa_tradicao_china",
+          "titulo": "5 Milênios de Tradição Intelectual",
+          "arquivo": "tradicao_intelectual_china.json",
+          "elementos": [
+            "Inscrições oraculares (Shang, séc. XIV a.C.)",
+            "Clássicos Confucianos (Han)",
+            "Enciclopédias Tang-Song",
+            "Yongle Dadian (Ming, 1408)",
+            "Filosofia Contemporânea (séc. XX-XXI)"
+          ]
+        }
+      ],
+      
+      "conexoes": {
+        "anteriores": [],
+        "proximos": ["cap_01"],
+        "relacionados": ["cap_04", "cap_12", "cap_19"],
+        "hipoteses": ["hipotese_1"],
+        "filosofos": [],
+        "escolas": []
+      },
+      
+      "notas_tecnicas": {
+        "problemas_encoding": [
+          "Caracteres corrompidos no MD original (â€œ, ç­‰, etc.)",
+          "Necessário limpeza antes do parsing"
+        ],
+        "imagens_faltantes": [
+          "Referências a imagens não incluídas nos arquivos .md"
+        ]
+      }
+    },
+
+    {
+      "id": "cap_01",
+      "parte_id": "parte_1",
+      "ordem": 1,
+      "titulo": "Introdução",
+      "subtitulo": "O Que é Filosofia Contemporânea Chinesa?",
+      "tipo": "conceitual",
+      "duracao_leitura_estimada": "12min",
+      "dificuldade": "iniciante",
+      "conteudo_path": "conteudo/cap_01.md",
+      
+      "resumo_executivo": "Define o escopo da filosofia chinesa contemporânea: desde o Movimento de 4 de Maio (1919) até hoje. Apresenta os 4 eixos centrais: Novo Confucionismo, Marxismo Chinês, relação filosofia-ciência, e questões ético-políticas.",
+      
+      "conceitos_chave": [
+        {
+          "id": "filosofia_contemp_chinesa",
+          "termo": "Filosofia Contemporânea Chinesa",
+          "caracteres": "中国当代哲学",
+          "pinyin": "Zhōngguó dāngdài zhéxué",
+          "definicao": "Campo filosófico que emerge no século XX, respondendo aos desafios da modernidade ocidental enquanto mantém diálogo com tradições milenares (Confucionismo, Taoismo, Budismo).",
+          "importancia": "alta",
+          "tipo": "definicao_central"
+        },
+        {
+          "id": "movimento_4_maio",
+          "termo": "Movimento de 4 de Maio",
+          "caracteres": "五四运动",
+          "pinyin": "Wǔsì Yùndòng",
+          "definicao": "Mobilização estudantil de 1919 que marcou virada cultural na China. Defendeu ciência, democracia e crítica ao confucionismo tradicional. Marco do início do período contemporâneo.",
+          "importancia": "alta",
+          "tipo": "evento_fundador"
+        },
+        {
+          "id": "novo_confucionismo",
+          "termo": "Novo Confucionismo",
+          "caracteres": "新儒家",
+          "pinyin": "Xīn Rújiā",
+          "definicao": "Movimento de revitalização e modernização do confucionismo em resposta aos desafios da modernidade ocidental e do marxismo.",
+          "importancia": "alta",
+          "tipo": "corrente_filosofica"
+        },
+        {
+          "id": "marxismo_chines",
+          "termo": "Marxismo Chinês",
+          "caracteres": "中国马克思主义",
+          "pinyin": "Zhōngguó Mǎkèsī Zhǔyì",
+          "definicao": "Adaptação do marxismo ao contexto chinês, enfatizando o papel do campesinato e incorporando elementos da tradição cultural chinesa.",
+          "importancia": "alta",
+          "tipo": "corrente_filosofica"
+        }
+      ],
+      
+      "estrutura_tematica": [
+        {
+          "tema": "Novo Confucionismo (新儒家)",
+          "descricao": "Esforço de revitalizar tradição confucionista",
+          "capitulos_relacionados": ["cap_05", "cap_14", "cap_15", "cap_18"],
+          "filosofos": ["mou_zongsan", "tu_weiming", "chen_lai"]
+        },
+        {
+          "tema": "Marxismo Chinês (中国马克思主义)",
+          "descricao": "Adaptação do marxismo com características chinesas",
+          "capitulos_relacionados": ["cap_06"],
+          "figuras_chave": ["Mao Zedong", "Deng Xiaoping"]
+        },
+        {
+          "tema": "Filosofia e Ciência (哲学与科学的关系)",
+          "descricao": "Síntese entre pensamento científico e filosofia tradicional",
+          "capitulos_relacionados": ["cap_07"]
+        },
+        {
+          "tema": "Questões Éticas e Políticas (伦理和政治问题)",
+          "descricao": "Desafios da sociedade chinesa moderna e globalizada",
+          "capitulos_relacionados": ["cap_09", "cap_10", "cap_11"]
+        }
+      ],
+      
+      "desafios_metodologicos": [
+        {
+          "titulo": "O Problema da Tradução",
+          "descricao": "Muitos termos filosóficos chineses não possuem equivalentes diretos em outras línguas.",
+          "exemplo": {
+            "termo_chines": "仁 (rén)",
+            "traducoes_possiveis": ["benevolência", "humanidade", "amor universal", "compaixão"],
+            "problema": "Nenhuma tradução captura plenamente o conceito"
+          },
+          "exercicio": {
+            "tipo": "teste_traducao",
+            "instrucao": "Tente traduzir 'saudade' para chinês ou inglês. Percebe a dificuldade?"
+          }
+        },
+        {
+          "titulo": "Diversidade e Fragmentação",
+          "descricao": "A filosofia chinesa moderna é composta por variedade de correntes com visões conflitantes.",
+          "solucao_adotada": "Este livro identifica 5 autores-chave como amostra representativa"
+        },
+        {
+          "titulo": "Uso de IA na Pesquisa",
+          "descricao": "Este livro utilizou ferramentas de IA (maioria chinesas) para tradução e análise.",
+          "reflexao_critica": "Quais vieses uma IA chinesa pode ter? Como isso afeta a interpretação?"
+        }
+      ],
+      
+      "reflexoes_interativas": [
+        {
+          "id": "ref_cap01_01",
+          "tipo": "definicao_pessoal",
+          "pergunta": "Para você, o que significa 'contemporâneo' em filosofia? É apenas recente, ou algo mais?",
+          "formato": "texto_livre",
+          "discussao": "Compare sua definição com a chinesa (desde 1919)"
+        },
+        {
+          "id": "ref_cap01_02",
+          "tipo": "linha_temporal_comparativa",
+          "pergunta": "O 'contemporâneo' chinês começa em 1919 (Movimento 4 de Maio). Quando começa o contemporâneo ocidental?",
+          "opcoes": [
+            "Pós-2ª Guerra (1945)",
+            "Existencialismo (1940s)",
+            "Pós-modernidade (1960s)",
+            "Queda do Muro de Berlim (1989)",
+            "Século XXI (2000)"
+          ],
+          "objetivo": "Perceber diferenças na periodização filosófica"
+        },
+        {
+          "id": "ref_cap01_03",
+          "tipo": "auto_avaliacao",
+          "pergunta": "Antes deste capítulo, você conhecia o Movimento de 4 de Maio?",
+          "formato": "sim_nao",
+          "followup": "Se não, por que eventos chineses são menos conhecidos que europeus?"
+        }
+      ],
+      
+      "elementos_multimidia": [
+        {
+          "tipo": "cronologia_interativa",
+          "id": "timeline_filosofia_china",
+          "titulo": "Linha do Tempo: Filosofia Chinesa Contemporânea",
+          "arquivo": "timeline_filosofia_contemporanea.json",
+          "eventos_destacados": [
+            {
+              "ano": 1919,
+              "evento": "Movimento de 4 de Maio",
+              "importancia": "Marco fundador"
+            },
+            {
+              "ano": 1949,
+              "evento": "Fundação da República Popular",
+              "importancia": "Marxismo como ideologia oficial"
+            },
+            {
+              "ano": 1966-1976,
+              "evento": "Revolução Cultural",
+              "importancia": "Perseguição à filosofia tradicional"
+            },
+            {
+              "ano": 1978,
+              "evento": "Reformas de Deng Xiaoping",
+              "importancia": "Reabertura intelectual"
+            },
+            {
+              "ano": 2005,
+              "evento": "Zhao Tingyang publica teoria Tianxia",
+              "importancia": "China entra no debate filosófico global"
+            }
+          ],
+          "permite_zoom": true,
+          "filtra_por": ["eventos_politicos", "publicacoes_filosoficas", "pensadores"]
+        }
+      ],
+      
+      "conexoes": {
+        "anteriores": ["prefacio"],
+        "proximos": ["cap_02"],
+        "relacionados": ["cap_05", "cap_06", "cap_13"],
+        "hipoteses": ["hipotese_1"],
+        "filosofos": [],
+        "escolas": []
+      }
+    },
+
+    {
+      "id": "cap_02",
+      "parte_id": "parte_1",
+      "ordem": 2,
+      "titulo": "Breve História da Filosofia Chinesa Clássica",
+      "subtitulo": "Confucionismo, Taoismo e Budismo - As Três Raízes",
+      "tipo": "historico_fundacional",
+      "duracao_leitura_estimada": "20min",
+      "dificuldade": "iniciante",
+      "conteudo_path": "conteudo/cap_02.md",
+      
+      "resumo_executivo": "Apresenta as três escolas filosóficas clássicas que moldaram o pensamento chinês: Confucionismo (ordem social e moralidade), Taoismo (harmonia com a natureza), Budismo (libertação do sofrimento). Mostra proximidades e distâncias entre elas.",
+      
+      "escolas_apresentadas": ["confucionismo", "taoismo", "budismo"],
+      
+      "conceitos_chave": [
+        {
+          "id": "ren",
+          "termo": "Benevolência (仁)",
+          "caracteres": "仁",
+          "pinyin": "rén",
+          "escola": "confucionismo",
+          "definicao": "Virtude suprema confucionista - amor, compaixão e respeito pelos outros",
+          "importancia": "alta"
+        },
+        {
+          "id": "dao",
+          "termo": "O Caminho (道)",
+          "caracteres": "道",
+          "pinyin": "dào",
+          "escola": "taoismo",
+          "definicao": "Princípio fundamental que governa o universo. Fonte de toda existência e padrão para toda ação.",
+          "importancia": "alta"
+        },
+        {
+          "id": "ku",
+          "termo": "Sofrimento (苦)",
+          "caracteres": "苦",
+          "pinyin": "kǔ",
+          "escola": "budismo",
+          "definicao": "Condição fundamental da existência humana, causada pelo desejo e pela ignorância.",
+          "importancia": "alta"
+        },
+        {
+          "id": "wuwei",
+          "termo": "Não-ação (无为)",
+          "caracteres": "无为",
+          "pinyin": "wúwéi",
+          "escola": "taoismo",
+          "definicao": "Não-interferência, espontaneidade. Prática de agir em harmonia com a natureza, sem forçar.",
+          "importancia": "alta"
+        },
+        {
+          "id": "nirvana",
+          "termo": "Nirvana (涅槃)",
+          "caracteres": "涅槃",
+          "pinyin": "nièpán",
+          "escola": "budismo",
+          "definicao": "Extinção do sofrimento, libertação do ciclo de renascimentos. Objetivo final da prática budista.",
+          "importancia": "alta"
+        }
+      ],
+      
+      "analise_comparativa": {
+        "proximidades": [
+          {
+            "escolas": ["confucionismo", "taoismo"],
+            "ponto_comum": "Ambos valorizam a harmonia",
+            "diferenca": "Confucionismo foca harmonia social (礼社会秩序), Taoismo foca harmonia natural (自然)"
+          },
+          {
+            "escolas": ["confucionismo", "budismo"],
+            "ponto_comum": "Ambos enfatizam ética",
+            "diferenca": "Confucionismo busca ordem coletiva, Budismo busca libertação individual"
+          },
+          {
+            "escolas": ["taoismo", "budismo"],
+            "ponto_comum": "Visão de não-substancialidade (无为 e 空)",
+            "diferenca": "Taoismo afirma a vida natural, Budismo busca transcender o ciclo de renascimentos"
+          }
+        ],
+        "distanciamentos": [
+          {
+            "escolas": ["confucionismo", "taoismo"],
+            "tensao": "Estrutura/ordem vs. espontaneidade/fluxo",
+            "sintese": "Um organiza pela regra, outro pelo fluxo"
+          },
+          {
+            "escolas": ["confucionismo", "budismo"],
+            "tensao": "Foco no mundo humano vs. foco na mente",
+            "sintese": "Um busca perfeição social, outro transcendência individual"
+          },
+          {
+            "escolas": ["taoismo", "budismo"],
+            "tensao": "Afirmação da vida vs. crítica da existência como sofrimento",
+            "sintese": "Um afirma imanência (自然), outro busca transcendência (涅槃)"
+          }
+        ],
+        "sintese_triangular": {
+          "confucionismo": "Olha para relações humanas e sociais",
+          "taoismo": "Olha para natureza e cosmos",
+          "budismo": "Olha para mente e libertação espiritual"
+        }
+      },
+      
+      "reflexoes_interativas": [
+        {
+          "id": "ref_cap02_01",
+          "tipo": "quiz_personalidade_filosofica",
+          "titulo": "Qual escola combina mais com você?",
+          "formato": "perguntas_multipla_escolha",
+          "perguntas": [
+            {
+              "pergunta": "Diante de um conflito social, você prefere:",
+              "opcoes": [
+                {
+                  "texto": "Mediar com rituais e etiqueta para restaurar harmonia",
+                  "escola": "confucionismo",
+                  "conceito": "礼 (lǐ)"
+                },
+                {
+                  "texto": "Deixar as coisas fluírem naturalmente sem interferir",
+                  "escola": "taoismo",
+                  "conceito": "无为 (wúwéi)"
+                },
+                {
+                  "texto": "Meditar sobre a impermanência do conflito",
+                  "escola": "budismo",
+                  "conceito": "无常 (wúcháng)"
+                }
+              ]
+            },
+            {
+              "pergunta": "Seu objetivo na vida é:",
+              "opcoes": [
+                {
+                  "texto": "Cultivar virtudes e contribuir para uma sociedade justa",
+                  "escola": "confucionismo"
+                },
+                {
+                  "texto": "Viver em harmonia com a natureza e ser espontâneo",
+                  "escola": "taoismo"
+                },
+                {
+                  "texto": "Libertar-se do sofrimento e alcançar a iluminação",
+                  "escola": "budismo"
+                }
+              ]
+            }
+            // ... [MAIS 8 PERGUNTAS]
+          ],
+          "resultado": {
+            "formato": "percentual_cada_escola",
+            "recomendacao": "Sugere filósofos contemporâneos alinhados"
+          }
+        },
+        {
+          "id": "ref_cap02_02",
+          "tipo": "diagrama_venn_interativo",
+          "titulo": "Explore as Interseções",
+          "arquivo": "venn_3_escolas.json",
+          "instrucao": "Clique nas áreas de interseção para ver conceitos compartilhados"
+        }
+      ],
+      
+      "elementos_multimidia": [
+        {
+          "tipo": "diagrama_venn",
+          "id": "venn_escolas",
+          "titulo": "Proximidades e Distâncias das Três Escolas",
+          "arquivo": "diagrama_venn_escolas_classicas.svg",
+          "interativo": true,
+          "areas_clicaveis": [
+            "confucionismo_solo",
+            "taoismo_solo",
+            "budismo_solo",
+            "confucio_tao",
+            "confucio_buda",
+            "tao_buda",
+            "centro_tres"
+          ]
+        },
+        {
+          "tipo": "tabela_comparativa",
+          "id": "tab_3_escolas",
+          "titulo": "Conceitos-Chave de Cada Escola",
+          "colunas": ["Confucionismo", "Taoismo", "Budismo"],
+          "linhas": [
+            {
+              "categoria": "Foco Principal",
+              "valores": ["Sociedade", "Natureza", "Mente"]
+            },
+            {
+              "categoria": "Objetivo Último",
+              "valores": ["Ordem social", "Harmonia cósmica", "Libertação do sofrimento"]
+            },
+            {
+              "categoria": "Método",
+              "valores": ["Rituais e cultivo moral", "Não-ação espontânea", "Meditação e desapego"]
+            }
+          ]
+        }
+      ],
+      
+      "conexoes": {
+        "anteriores": ["cap_01"],
+        "proximos": ["cap_03"],
+        "relacionados": ["cap_05", "cap_15", "cap_18"],
+        "hipoteses": ["hipotese_3"],
+        "filosofos": ["tu_weiming", "chen_lai"],
+        "escolas": ["confucionismo", "taoismo", "budismo"]
+      }
+    },
+
+    {
+      "id": "cap_19",
+      "parte_id": "parte_5",
+      "ordem": 19,
+      "titulo": "7 Hipóteses",
+      "subtitulo": "Sete Chaves para Compreender a Filosofia Chinesa Contemporânea",
+      "tipo": "sintese_nuclear",
+      "e_capitulo_nucleo": true,
+      "duracao_leitura_estimada": "30min",
+      "dificuldade": "avançado",
+      "conteudo_path": "conteudo/cap_19.md",
+      
+      "resumo_executivo": "O coração do livro. Após analisar os 5 filósofos (Mou, Tu, Li, Zhao, Chen), este capítulo apresenta 7 hipóteses que sintetizam a essência da filosofia chinesa contemporânea. Cada hipótese é ilustrada com um ideograma (汉字) e conectada aos pensadores.",
+      
+      "modo_visualizacao_especial": "rede_conceitual_navegavel",
+      
+      "estrutura_capitulo": {
+        "introducao": {
+          "texto": "Síntese do trabalho dos 5 filósofos",
+          "duracao": "5min"
+        },
+        "apresentacao_hipoteses": {
+          "texto": "7 hipóteses explicadas com análise e crítica",
+          "duracao": "20min"
+        },
+        "rede_conceitual": {
+          "texto": "Grafo interativo filósofos ↔ conceitos",
+          "duracao": "5min"
+        }
+      },
+      
+      "hipoteses_detalhadas": [
+        {
+          "id": "hipotese_1",
+          "numero": 1,
+          "titulo_curto": "Universalidade em Disputa",
+          "titulo_completo": "O conjunto da obra dos cinco filósofos aponta para uma filosofia global de 'raízes múltiplas', que desafia a pretensão ocidental de universalidade homogênea.",
+          
+          "ideograma": {
+            "caracteres": "普遍",
+            "pinyin": "pǔbiàn",
+            "traducao_literal": "Universal / Comum a todos",
+            "explicacao_visual": "O ideograma une o traço do 'comum' (普) e do 'amplo' (遍), sugerindo não apenas o que se espalha, mas aquilo que se torna horizonte compartilhado. Diferente da universalidade abstrata do Ocidente, aqui se trata de um universal que cresce de dentro da experiência, que se amplia sem apagar singularidades."
+          },
+          
+          "analise": "Esta é a hipótese mais abrangente, pois sintetiza o espírito da filosofia chinesa contemporânea: propor uma filosofia verdadeiramente global que não parte da homogeneização ocidental, mas de uma pluralidade enraizada em tradições distintas. Mou, Tu, Li, Zhao e Chen oferecem não apenas leituras do Ocidente, mas também propostas de universalidade alternativas.",
+          
+          "critica": "O risco aqui é ser interpretado como relativismo cultural, minando valores universais. Entretanto, a proposta chinesa não nega universalidade, mas defende sua construção policêntrica, enraizada em experiências civilizacionais diferentes.",
+          
+          "filosofos_principais": [
+            {
+              "id": "mou_zongsan",
+              "contribuicao": "Universalidade da moralidade (Kant + Confúcio)"
+            },
+            {
+              "id": "tu_weiming",
+              "contribuicao": "Humanismo global a partir do confucionismo"
+            },
+            {
+              "id": "zhao_tingyang",
+              "contribuicao": "Tianxia como ordem universal inclusiva"
+            }
+          ],
+          
+          "palavra_chave": "pluralidade",
+          "cor_tema": "#FF6B6B",
+          "icone": "🌐",
+          
+          "exercicio_reflexivo": {
+            "tipo": "debate_posicionamento",
+            "pergunta": "A universalidade filosófica deve ser única ou múltipla?",
+            "posicoes": [
+              {
+                "titulo": "Universalidade Única (tradição kantiana)",
+                "argumento": "Valores universais (dignidade, justiça) devem valer para todos, sempre. Uma única 'lei moral' transcultural.",
+                "representantes": ["Kant", "Habermas", "Rawls"]
+              },
+              {
+                "titulo": "Universalidade Múltipla (filosofia chinesa)",
+                "argumento": "Cada civilização contribui com sua versão do universal. A universalidade é construída no diálogo, não imposta de um centro.",
+                "representantes": ["Mou Zongsan", "Tu Weiming", "Zhao Tingyang"]
+              }
+            ],
+            "formato": "slider_0_a_10",
+            "labels": ["Única", "Múltipla"],
+            "reflexao_posterior": "Onde você se posicionou? Por quê?"
+          },
+          
+          "conexoes": {
+            "capitulos": ["prefacio", "cap_01", "cap_05", "cap_14", "cap_15", "cap_17"],
+            "outras_hipoteses": ["hipotese_2", "hipotese_7"]
+          }
+        },
+
+        {
+          "id": "hipotese_2",
+          "numero": 2,
+          "titulo_curto": "O Nó Ético-Político",
+          "titulo_completo": "A filosofia chinesa contemporânea reabre o debate sobre a relação entre moralidade e política, unindo Kant, Confúcio e Tianxia numa síntese ainda inconclusa.",
+          
+          "ideograma": {
+            "caracteres": "道德",
+            "pinyin": "dàodé",
+            "traducao_literal": "Moralidade / Ética",
+            "explicacao_visual": "Literalmente, 'o Caminho (道) e a Virtude (德)'. Não é a moral como código imposto, mas como percurso existencial: seguir o dao é caminhar em direção à integridade, e cultivar a dé é encarnar essa virtude no gesto cotidiano. A moralidade, assim, é prática viva e não mera norma."
+          },
+          
+          "analise": "Essa hipótese mostra o esforço sistemático dos filósofos chineses para superar o abismo entre ética e política — tema central do Ocidente desde Maquiavel. Mou traz Kant ao diálogo com o confucionismo; Tu e Chen enfatizam a normatividade comunitária; Zhao amplia para a escala planetária com Tianxia.",
+          
+          "critica": "A síntese proposta é de difícil viabilidade, porque as tradições possuem pressupostos ontológicos distintos. Ainda assim, esse esforço de compatibilização é um dos pontos mais criativos e ousados da filosofia chinesa contemporânea.",
+          
+          "filosofos_principais": [
+            {
+              "id": "mou_zongsan",
+              "contribuicao": "Moralidade kantiana reinterpretada pelo confucionismo"
+            },
+            {
+              "id": "zhao_tingyang",
+              "contribuicao": "Tianxia como política fundada em ética inclusiva"
+            }
+          ],
+          
+          "palavra_chave": "síntese",
+          "cor_tema": "#4ECDC4",
+          "icone": "⚖️",
+          
+          "exercicio_reflexivo": {
+            "tipo": "dilema_etico_politico",
+            "situacao": "Um governante deve mentir ao povo para evitar pânico em uma crise?",
+            "perspectivas": [
+              {
+                "filosofia": "Kant",
+                "resposta": "Não. Mentir é sempre errado, pois viola a lei moral universal. Mesmo em crise, a verdade é imperativa.",
+                "fundamento": "Imperativo categórico"
+              },
+              {
+                "filosofia": "Confúcio",
+                "resposta": "Depende do contexto e das relações (关系). Se a benevolência (仁) e o bem comum exigem, pode ser justificado.",
+                "fundamento": "Ética relacional"
+              },
+              {
+                "filosofia": "Maquiavel",
+                "resposta": "Sim, se necessário para manter o poder e a ordem. O governante deve fazer o que funciona.",
+                "fundamento": "Realismo político"
+              }
+            ],
+            "formato": "texto_livre",
+            "pergunta_final": "Qual posição você defende? Por quê?"
+          },
+          
+          "conexoes": {
+            "capitulos": ["cap_05", "cap_10", "cap_14", "cap_17"],
+            "outras_hipoteses": ["hipotese_1", "hipotese_4"]
+          }
+        },
+
+        {
+          "id": "hipotese_3",
+          "numero": 3,
+          "titulo_curto": "Modernidade da Comunidade",
+          "titulo_completo": "O humanismo confuciano, em suas variações de Tu, Chen e Mou, desafia o Ocidente a pensar uma modernidade não individualista, mas comunitária e relacional.",
+          
+          "ideograma": {
+            "caracteres": "社群",
+            "pinyin": "shèqún",
+            "traducao_literal": "Comunidade",
+            "explicacao_visual": "O ideograma traz o radical de 'altar' (社) e 'grupo' (群), evocando tanto o espaço ritual quanto a coletividade que nele se reúne. Ser humano é, antes de tudo, ser parte: uma rede de pertencimentos que sustenta e dá forma à vida."
+          },
+          
+          "analise": "A hipótese mostra como o confucionismo é atualizado como alternativa ao individualismo exacerbado do liberalismo ocidental. Ao invés de dissolver o indivíduo, coloca-o em rede: família, sociedade, cosmos. Essa visão é central para enfrentar crises contemporâneas como solidão social, colapso ecológico e crise de pertencimento.",
+          
+          "critica": "O perigo é que essa ênfase no comunitário seja vista como coletivismo que sufoca a autonomia. No entanto, os filósofos confucianos contemporâneos defendem uma dialética de 'indivíduo na comunidade', onde liberdade e responsabilidade são indissociáveis.",
+          
+          "filosofos_principais": [
+            {
+              "id": "tu_weiming",
+              "contribuicao": "Humanismo relacional em escala global"
+            },
+            {
+              "id": "chen_lai",
+              "contribuicao": "Hermenêutica da comunidade confuciana"
+            },
+            {
+              "id": "mou_zongsan",
+              "contribuicao": "Autonomia moral dentro da comunidade"
+            }
+          ],
+          
+          "palavra_chave": "relacionalidade",
+          "cor_tema": "#95E1D3",
+          "icone": "👥",
+          
+          "exercicio_reflexivo": {
+            "tipo": "espectro_valores",
+            "titulo": "Indivíduo vs. Comunidade: Onde você se posiciona?",
+            "extremo_esquerda": {
+              "label": "Indivíduo acima de tudo",
+              "filosofia": "Liberalismo (Rawls, Hayek, Rand)",
+              "exemplo": "Meus direitos individuais são absolutos, mesmo contra a comunidade"
+            },
+            "extremo_direita": {
+              "label": "Comunidade acima de tudo",
+              "filosofia": "Confucionismo",
+              "exemplo": "Só me realizo plenamente em harmonia com minha comunidade"
+            },
+            "formato": "slider_0_a_10",
+            "reflexao_final": {
+              "pergunta": "Por que você escolheu essa posição?",
+              "formato": "texto_livre",
+              "dicas": [
+                "Pense na sua criação familiar",
+                "Reflita sobre momentos de conflito entre você e o grupo",
+                "Considere como sua cultura influenciou sua resposta"
+              ]
+            }
+          },
+          
+          "conexoes": {
+            "capitulos": ["cap_02", "cap_03", "cap_09", "cap_15", "cap_18"],
+            "outras_hipoteses": ["hipotese_5"]
+          }
+        }
+
+        // ... [CONTINUA COM HIPÓTESES 4, 5, 6, 7 NO MESMO PADRÃO DETALHADO]
+      ],
+      
+      "grafo_filosofos_conceitos": {
+        "tipo": "rede_semantica_interativa",
+        "arquivo": "grafo_filosofos_7_conceitos.json",
+        "descricao": "Visualização interativa mostrando como cada filósofo se conecta às 7 hipóteses/conceitos",
+        "nodes": [
+          {
+            "tipo": "filosofo",
+            "ids": ["mou_zongsan", "tu_weiming", "li_zehou", "zhao_tingyang", "chen_lai"]
+          },
+          {
+            "tipo": "conceito",
+            "ids": ["hipotese_1", "hipotese_2", "hipotese_3", "hipotese_4", "hipotese_5", "hipotese_6", "hipotese_7"]
+          }
+        ],
+        "edges": [
+          {
+            "source": "mou_zongsan",
+            "targets": ["hipotese_1", "hipotese_2", "hipotese_5"],
+            "intensidade": [0.9, 0.8, 0.7]
+          },
+          {
+            "source": "tu_weiming",
+            "targets": ["hipotese_1", "hipotese_3", "hipotese_5", "hipotese_7"],
+            "intensidade": [0.8, 0.9, 0.7, 0.6]
+          }
+          // ... [TODAS AS CONEXÕES]
+        ],
+        "configuracao_visual": {
+          "layout": "forcas_gravitacionais",
+          "cor_nodes": "por_tipo",
+          "espessura_edges": "por_intensidade",
+          "permite_filtros": ["por_filosofo", "por_hipotese", "mostrar_apenas_conexoes_fortes"]
+        }
+      },
+      
+      "sintese_final": {
+        "titulo": "O Arco da Filosofia Chinesa Contemporânea",
+        "texto": "Entre universalidade e comunidade, moralidade e política, autonomia e estética, cosmopolitismo e Tianxia, a filosofia chinesa contemporânea se apresenta como um esforço vigoroso de repensar o humano em escala global.",
+        "eixos_tensao": [
+          "Universalidade ↔ Comunidade",
+          "Moralidade ↔ Política",
+          "Autonomia ↔ Estética",
+          "Cosmopolitismo ↔ Tianxia"
+        ],
+        "visualizacao": {
+          "tipo": "mandala_conceitual",
+          "arquivo": "mandala_7_hipoteses.svg",
+          "centro": "Filosofia Chinesa Contemporânea",
+          "raios": "7 hipóteses"
+        }
+      },
+      
+      "reflexoes_interativas": [
+        {
+          "id": "ref_cap19_mapa_pessoal",
+          "tipo": "perfil_filosofico_personalizado",
+          "titulo": "Crie Seu Mapa Filosófico",
+          "instrucao": "Para cada uma das 7 hipóteses, indique o quanto você concorda (0-10)",
+          "formato": "7_sliders",
+          "resultado": {
+            "tipo": "grafico_radar",
+            "comparacao": "Seu perfil vs. perfil dos 5 filósofos",
+            "recomendacao": "Sugere qual filósofo você deveria aprofundar"
+          }
+        }
+      ],
+      
+      "elementos_multimidia": [
+        {
+          "tipo": "infografico_sintese",
+          "id": "info_7_hipoteses",
+          "titulo": "As 7 Hipóteses em Uma Imagem",
+          "arquivo": "infografico_7_hipoteses.svg",
+          "versoes": ["simplificada", "detalhada", "com_ideogramas"]
+        }
+      ],
+      
+      "conexoes": {
+        "anteriores": ["cap_14", "cap_15", "cap_16", "cap_17", "cap_18"],
+        "proximos": ["cap_20"],
+        "relacionados": ["todos"],
+        "hipoteses": ["todas"],
+        "filosofos": ["todos"],
+        "escolas": ["confucionismo", "taoismo"]
+      }
+    }
+
+    // ... [OS DEMAIS 20 CAPÍTULOS SEGUEM O MESMO PADRÃO]
+  ]
+}

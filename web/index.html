@@ -1,0 +1,238 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Filosofia Chinesa Contemporânea - App Interativo</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Noto+Sans:wght@300;400;500;600;700&family=Noto+Serif+SC:wght@400;500;600;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="styles.css">
+    <link rel="icon" href="data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 100 100'><text y='.9em' font-size='90'>🔑</text></svg>">
+</head>
+<body>
+    <!-- Header -->
+    <header class="header">
+        <div class="container header-row">
+            <div class="header-content">
+                <div class="header-title-row">
+                    <img src="filo chi capa.png" alt="Capa do livro" class="header-cover">
+                    <h1 class="header-title">🔑 Sete chaves para compreender a filosofia chinesa contemporânea</h1>
+                </div>
+                
+            </div>
+        </div>
+    </header>
+
+    <!-- Navigation -->
+    <nav class="navigation">
+        <div class="container">
+            <div class="nav-tabs">
+                <button class="nav-tab active" data-tab="home">
+                    <span class="nav-icon">🏠</span>
+                    <span class="nav-text">Início</span>
+                </button>
+                <button class="nav-tab" data-tab="hypotheses">
+                    <span class="nav-icon">🌟</span>
+                    <span class="nav-text">Hipóteses</span>
+                </button>
+                <button class="nav-tab" data-tab="philosophers">
+                    <span class="nav-icon">👤</span>
+                    <span class="nav-text">Filósofos</span>
+                </button>
+                <button class="nav-tab" data-tab="chapters">
+                    <span class="nav-icon">📖</span>
+                    <span class="nav-text">Capítulos</span>
+                </button>
+                <button class="nav-tab" data-tab="resources">
+                    <span class="nav-icon">📚</span>
+                    <span class="nav-text">Recursos</span>
+                </button>
+                <button class="nav-tab" data-tab="journey">
+                    <span class="nav-icon">🚀</span>
+                    <span class="nav-text">Jornadas</span>
+                </button>
+            </div>
+        </div>
+    </nav>
+
+    <!-- Main Content -->
+    <main class="main-content">
+        <div class="container">
+            <!-- Home Tab -->
+            <div class="tab-content active" id="home">
+                <!-- Quick Stats -->
+                <section class="stats-section">
+                    <div class="stats-grid">
+                        <div class="stat-card">
+                            <div class="stat-number">7</div>
+                            <div class="stat-label">Hipóteses</div>
+                        </div>
+                        <div class="stat-card">
+                            <div class="stat-number">5</div>
+                            <div class="stat-label">Filósofos</div>
+                        </div>
+                        <div class="stat-card">
+                            <div class="stat-number">24</div>
+                            <div class="stat-label">Capítulos</div>
+                        </div>
+                        <div class="stat-card">
+                            <div class="stat-number">7h</div>
+                            <div class="stat-label">Leitura</div>
+                        </div>
+                    </div>
+                </section>
+
+                <!-- Jornadas Temáticas -->
+                <section class="section">
+                    <h2 class="section-title">🚀 Jornadas Temáticas</h2>
+                    <div class="journeys-grid">
+                        <div class="journey-card" onclick="openJourney('jornada_7_dias')">
+                            <div class="journey-icon">📅</div>
+                            <h3 class="journey-title">Jornada de 7 Dias</h3>
+                            <p class="journey-subtitle">Uma hipótese por dia</p>
+                            <p class="journey-duration">7 dias</p>
+                        </div>
+                        <div class="journey-card" onclick="openJourney('trilha_iniciante')">
+                            <div class="journey-icon">🌱</div>
+                            <h3 class="journey-title">Trilha do Iniciante</h3>
+                            <p class="journey-subtitle">Primeiros passos</p>
+                            <p class="journey-duration">2 horas</p>
+                        </div>
+                    </div>
+                </section>
+
+                <!-- 7 Hipóteses -->
+                <section class="section">
+                    <h2 class="section-title">🌟 As 7 Hipóteses Centrais</h2>
+                    <p class="section-description">O coração conceitual da filosofia chinesa contemporânea</p>
+                    <div class="hypotheses-grid" id="home-hypotheses">
+                        <!-- Hipóteses serão carregadas via JavaScript -->
+                    </div>
+                </section>
+
+                <!-- Filósofos -->
+                <section class="section">
+                    <h2 class="section-title">👤 Os 5 Filósofos</h2>
+                    <p class="section-description">Pensadores que redesenham o mundo</p>
+                    <div class="philosophers-grid" id="home-philosophers">
+                        <!-- Filósofos serão carregados via JavaScript -->
+                    </div>
+                </section>
+
+                <!-- Quick Actions -->
+                <section class="section">
+                    <h2 class="section-title">⚡ Ações Rápidas</h2>
+                    <div class="quick-actions-grid">
+                        <button class="quick-action-btn" onclick="switchTab('hypotheses')">
+                            <span class="quick-action-icon">🌟</span>
+                            <span class="quick-action-text">Explorar Hipóteses</span>
+                        </button>
+                        <button class="quick-action-btn" onclick="switchTab('philosophers')">
+                            <span class="quick-action-icon">👤</span>
+                            <span class="quick-action-text">Conhecer Filósofos</span>
+                        </button>
+                        <button class="quick-action-btn" onclick="switchTab('chapters')">
+                            <span class="quick-action-icon">📖</span>
+                            <span class="quick-action-text">Ler Capítulos</span>
+                        </button>
+                        <button class="quick-action-btn" onclick="switchTab('resources')">
+                            <span class="quick-action-icon">📚</span>
+                            <span class="quick-action-text">Recursos</span>
+                        </button>
+                    </div>
+                </section>
+            </div>
+
+            <!-- Hypotheses Tab -->
+            <div class="tab-content" id="hypotheses">
+                <div class="tab-header">
+                    <h2 class="tab-title">🌟 As 7 Hipóteses</h2>
+                    <p class="tab-subtitle">O coração conceitual da filosofia chinesa contemporânea</p>
+                    <div class="view-toggle">
+                        <button class="toggle-btn active" data-view="grid">📱 Grid</button>
+                        <button class="toggle-btn" data-view="list">📋 Lista</button>
+                    </div>
+                </div>
+                <div class="hypotheses-container" id="hypotheses-container">
+                    <!-- Hipóteses serão carregadas via JavaScript -->
+                </div>
+            </div>
+
+            <!-- Philosophers Tab -->
+            <div class="tab-content" id="philosophers">
+                <div class="tab-header">
+                    <h2 class="tab-title">👤 Os 5 Filósofos</h2>
+                    <p class="tab-subtitle">Pensadores que redesenham o mundo</p>
+                    <div class="view-toggle">
+                        <button class="toggle-btn active" data-view="grid">📱 Grid</button>
+                        <button class="toggle-btn" data-view="list">📋 Lista</button>
+                    </div>
+                </div>
+                <div class="philosophers-container" id="philosophers-container">
+                    <!-- Filósofos serão carregados via JavaScript -->
+                </div>
+            </div>
+
+            <!-- Chapters Tab -->
+            <div class="tab-content" id="chapters">
+                <div class="tab-header">
+                    <h2 class="tab-title">📖 Capítulos</h2>
+                    <p class="tab-subtitle">Explore o conteúdo completo do livro</p>
+                </div>
+                <div class="chapters-container" id="chapters-container">
+                    <!-- Capítulos serão carregados via JavaScript -->
+                </div>
+            </div>
+
+            <!-- Resources Tab -->
+            <div class="tab-content" id="resources">
+                <div class="tab-header">
+                    <h2 class="tab-title">📚 Recursos</h2>
+                    <p class="tab-subtitle">Glossário, cronologia e bibliografia essenciais</p>
+                </div>
+                <div class="resources-container" id="resources-container">
+                    <!-- Recursos serão carregados via JavaScript -->
+                </div>
+            </div>
+
+            <!-- Journey Tab -->
+            <div class="tab-content" id="journey">
+                <div class="tab-header">
+                    <h2 class="tab-title">🚀 Jornadas Temáticas</h2>
+                    <p class="tab-subtitle">Explore a filosofia chinesa através de trilhas estruturadas</p>
+                </div>
+                <div class="journey-container" id="journey-container">
+                    <!-- Jornadas serão carregadas via JavaScript -->
+                </div>
+            </div>
+        </div>
+    </main>
+
+    <!-- Modal -->
+    <div class="modal" id="modal">
+        <div class="modal-content">
+            <div class="modal-header">
+                <h3 class="modal-title" id="modal-title"></h3>
+                <button class="modal-close" onclick="closeModal()">&times;</button>
+            </div>
+            <div class="modal-body" id="modal-body">
+                <!-- Conteúdo será carregado via JavaScript -->
+            </div>
+        </div>
+    </div>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="container">
+            <p class="footer-text">
+                💡 <strong>Dica:</strong> Explore as hipóteses para entender como a filosofia chinesa contemporânea desafia o pensamento ocidental.
+            </p>
+        </div>
+    </footer>
+
+    <!-- Scripts -->
+    <script src="data.js?v=20241021"></script>
+    <script src="App.js?v=20241021"></script>
+</body>
+</html>
