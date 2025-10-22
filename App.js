@@ -17,7 +17,7 @@ function initializeApp() {
 
 // Navegação
 function setupNavigation() {
-    const navTabs = document.querySelectorAll('.nav-tab');
+    const navTabs = document.querySelectorAll('.nav-tab[data-tab]');
     navTabs.forEach(tab => {
         tab.addEventListener('click', function() {
             const tabName = this.dataset.tab;
