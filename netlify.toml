@@ -1,12 +1,55 @@
 [build]
-command = ""
-publish = "web"
-base = "."
+  # Sem build necessário - é um site estático
+  command = ""
+  # Publicar da raiz do projeto
+  publish = "."
 
-# Optional: set security headers
-# [[headers]]
-# for = "/*"
-#   [headers.values]
-#   X-Content-Type-Options = "nosniff"
-#   Referrer-Policy = "strict-origin-when-cross-origin"
-#   X-Frame-Options = "DENY"
+# Headers de segurança
+[[headers]]
+  for = "/*"
+  [headers.values]
+    X-Content-Type-Options = "nosniff"
+    X-Frame-Options = "DENY"
+    X-XSS-Protection = "1; mode=block"
+    Referrer-Policy = "strict-origin-when-cross-origin"
+    Permissions-Policy = "geolocation=(), microphone=(), camera=()"
+
+# Cache estático para assets
+[[headers]]
+  for = "/*.js"
+  [headers.values]
+    Cache-Control = "public, max-age=31536000, immutable"
+
+[[headers]]
+  for = "/*.css"
+  [headers.values]
+    Cache-Control = "public, max-age=31536000, immutable"
+
+[[headers]]
+  for = "/*.png"
+  [headers.values]
+    Cache-Control = "public, max-age=31536000, immutable"
+
+[[headers]]
+  for = "/*.jpg"
+  [headers.values]
+    Cache-Control = "public, max-age=31536000, immutable"
+
+[[headers]]
+  for = "/*.jpeg"
+  [headers.values]
+    Cache-Control = "public, max-age=31536000, immutable"
+
+[[headers]]
+  for = "/*.svg"
+  [headers.values]
+    Cache-Control = "public, max-age=31536000, immutable"
+
+# HTML sem cache para sempre ter a versão mais recente
+[[headers]]
+  for = "/*.html"
+  [headers.values]
+    Cache-Control = "public, max-age=0, must-revalidate"
+
+# Configuração de redirects para SPA (se necessário)
+# O arquivo _redirects já cobre isso
